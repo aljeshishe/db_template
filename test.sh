@@ -1,5 +1,5 @@
 # remove all from previous runs
-ENV_NAME=test_env
+ENV_NAME=tenv
 docker rm -f mysql
 rm -rf $ENV_NAME
 
