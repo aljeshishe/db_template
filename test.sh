@@ -22,3 +22,5 @@ python db.py drop
 conda deactivate
 rm -rf $ENV_NAME
 docker rm -f mysql
+
+echo 'Everything works'
